@@ -27,8 +27,8 @@
 
 .fixed-element {
     position: fixed;
-    top: 390px;
-    left: 900px;
+    top: 790px;
+    left: 1700px;
 }
 
 .column {
@@ -51,12 +51,14 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 4, 1fr;
-    grid-template-rows: 3, 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     background-color: #CCC;
     grid-gap: 5px;
     grid-template-areas:
-    'header sidebar main footer'
+    'header header header header'
+    'sidebar main main main'
+    'footer footer footer footer';
 }
 
 .header {
