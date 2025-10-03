@@ -72,11 +72,11 @@
 }
 
 .main {
-    grid-area: Main;
+    grid-area: main;
     background-color: tan;
 }
 
 .footer {
-    grid-area: Footer;
+    grid-area: footer;
     background-color: red
 }
